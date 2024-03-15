@@ -1,0 +1,36 @@
+import turtle
+from turtle import *
+for i in range(4):
+    forward(150)
+    left(90)
+turtle.done()
+from turtle import *
+goto(0,0)
+goto(50,0)
+goto(50,90)
+goto(0,0)
+turtle.done()
+bgcolor('black')
+turtle.color("orange")
+circle(80)
+turtle.done()
+pensize(3)
+color('black')
+circle(150,45)
+color('red')
+circle(90,90)
+color('black')
+circle(150,90)
+color('red')
+circle(90,90)
+color('black')
+circle(150,45)
+done()
+pensize(3)
+clr = ['red','orange','yellow','green','blue','light blue','violet']
+nc = len(clr)
+for i in range(7):
+    color(clr[i % nc])
+    circle(100)
+    right(360/nc)
+done()
